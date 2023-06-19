@@ -6,8 +6,3 @@ def insertionSort(array=[]):
             array[i+1] = array[i]
             i = i - 1
         array[i+1] = key
-
-
-mylist = [30, 10, 7, 60, 55]
-insertionSort(mylist)
-print(mylist)
