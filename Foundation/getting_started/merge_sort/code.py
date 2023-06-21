@@ -22,9 +22,3 @@ def merge_sort(p, r, A=[]):
         merge_sort(p, mid, A)
         merge_sort(mid + 1, r, A)
         merge(p, mid, r, A)
-
-
-list1 = [3, 41, 52, 26, 38, 57, 9, 49]
-merge_sort(0, len(list1)-1, list1)
-
-print(list1)
