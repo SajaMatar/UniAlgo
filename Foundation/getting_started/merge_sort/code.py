@@ -8,9 +8,7 @@ def merge(p, q, r, A=[]):
     while left <= r and right <= r:
         if A[left] > A[right]:
             A[left], A[right] = A[right],  A[left]
-
         left += 1
-
         if (left >= right):
             right += 1
             left = p
