@@ -20,3 +20,10 @@ def merge_sort(p, r, A=[]):
         merge_sort(p, mid, A)
         merge_sort(mid + 1, r, A)
         merge(p, mid, r, A)
+
+
+if __name__ == "__main__":
+    list = []
+    list = [int(x) for x in input("enter your list of ints : ").split()]
+    merge_sort(0, len(list)-1, list)
+    print(list)
