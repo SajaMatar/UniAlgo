@@ -1,4 +1,0 @@
-import mergeCode
-
-list = [2, 4, 7, 1]
-mergeCode.merge_sort(0, 3, list)
